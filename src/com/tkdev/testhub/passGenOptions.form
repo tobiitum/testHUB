@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.tkdev.testhub.passGenOptions">
+  <grid id="27dc6" binding="optionsPanel" layout-manager="GridLayoutManager" row-count="15" column-count="9" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="354"/>
+    </constraints>
+    <properties>
+      <focusable value="false"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="c1f2d" class="javax.swing.JButton" binding="doneButton" default-binding="true">
+        <constraints>
+          <grid row="13" column="6" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <selected value="false"/>
+          <text value="Done"/>
+        </properties>
+      </component>
+      <hspacer id="4b75">
+        <constraints>
+          <grid row="13" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="bd613">
+        <constraints>
+          <grid row="1" column="6" row-span="1" col-span="2" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="6a8b6">
+        <constraints>
+          <grid row="13" column="3" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <scrollpane id="9b65c">
+        <constraints>
+          <grid row="2" column="2" row-span="11" col-span="4" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="15ce4" layout-manager="GridLayoutManager" row-count="31" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="1f3cb" class="javax.swing.JCheckBox" binding="aCheckBox" default-binding="true">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <focusable value="false"/>
+                  <selected value="true"/>
+                  <text value="a"/>
+                </properties>
+              </component>
+              <component id="b981c" class="javax.swing.JCheckBox" binding="bCheckBox" default-binding="true">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <focusable value="false"/>
+                  <selected value="true"/>
+                  <text value="b"/>
+                </properties>
+              </component>
+              <component id="e33ee" class="javax.swing.JCheckBox" binding="cCheckBox" default-binding="true">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <focusable value="false"/>
+                  <selected value="true"/>
+                  <text value="c"/>
+                </properties>
+              </component>
+              <component id="f33cb" class="javax.swing.JCheckBox" binding="dCheckBox">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <focusable value="false"/>
+                  <selected value="true"/>
+                  <text value="d"/>
+                </properties>
+              </component>
+              <component id="b085b" class="javax.swing.JCheckBox" binding="questionCheckBox">
+                <constraints>
+                  <grid row="29" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <focusable value="false"/>
+                  <selected value="true"/>
+                  <text value="?"/>
+                </properties>
+              </component>
+              <component id="93b26" class="javax.swing.JCheckBox" binding="zCheckBox">
+                <constraints>
+                  <grid row="25" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <focusable value="false"/>
+                  <selected value="true"/>
+                  <text value="z"/>
+                </properties>
+              </component>
+              <component id="cadac" class="javax.swing.JCheckBox" binding="yCheckBox">
+                <constraints>
+                  <grid row="24" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <focusable value="false"/>
+                  <selected value="true"/>
+                  <text value="y"/>
+                </properties>
+              </component>
+              <component id="52aff" class="javax.swing.JCheckBox" binding="xCheckBox">
+                <constraints>
+                  <grid row="23" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <focusable value="false"/>
+                  <selected value="true"/>
+                  <text value="x"/>
+                </properties>
+              </component>
+              <component id="89880" class="javax.swing.JCheckBox" binding="wCheckBox">
+                <constraints>
+                  <grid row="22" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <focusable value="false"/>
+                  <selected value="true"/>
+                  <text value="w"/>
+                </properties>
+              </component>
+              <component id="75340" class="javax.swing.JCheckBox" binding="vCheckBox">
+                <constraints>
+                  <grid row="21" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <focusable value="false"/>
+                  <selected value="true"/>
+                  <text value="v"/>
+                </properties>
+              </component>
+              <component id="48f5b" class="javax.swing.JCheckBox" binding="uCheckBox">
+                <constraints>
+                  <grid row="20" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <focusable value="false"/>
+                  <selected value="true"/>
+                  <text value="u"/>
+                </properties>
+              </component>
+              <component id="f2227" class="javax.swing.JCheckBox" binding="tCheckBox">
+                <constraints>
+                  <grid row="19" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <focusable value="false"/>
+                  <selected value="true"/>
+                  <text value="t"/>
+                </properties>
+              </component>
+              <component id="66b6c" class="javax.swing.JCheckBox" binding="sCheckBox">
+                <constraints>
+                  <grid row="18" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <focusable value="false"/>
+                  <selected value="true"/>
+                  <text value="s"/>
+                </properties>
+              </component>
+              <component id="ce34" class="javax.swing.JCheckBox" binding="rCheckBox">
+                <constraints>
+                  <grid row="17" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <focusable value="false"/>
+                  <selected value="true"/>
+                  <text value="r"/>
+                </properties>
+              </component>
+              <component id="65ba" class="javax.swing.JCheckBox" binding="qCheckBox">
+                <constraints>
+                  <grid row="16" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <focusable value="false"/>
+                  <selected value="true"/>
+                  <text value="q"/>
+                </properties>
+              </component>
+              <component id="b6943" class="javax.swing.JCheckBox" binding="pCheckBox">
+                <constraints>
+                  <grid row="15" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <focusable value="false"/>
+                  <selected value="true"/>
+                  <text value="p"/>
+                </properties>
+              </component>
+              <component id="b4ee7" class="javax.swing.JCheckBox" binding="oCheckBox">
+                <constraints>
+                  <grid row="14" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <focusable value="false"/>
+                  <selected value="true"/>
+                  <text value="o"/>
+                </properties>
+              </component>
+              <component id="9612" class="javax.swing.JCheckBox" binding="nCheckBox">
+                <constraints>
+                  <grid row="13" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <focusable value="false"/>
+                  <selected value="true"/>
+                  <text value="n"/>
+                </properties>
+              </component>
+              <component id="21454" class="javax.swing.JCheckBox" binding="mCheckBox">
+                <constraints>
+                  <grid row="12" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <focusable value="false"/>
+                  <selected value="true"/>
+                  <text value="m"/>
+                </properties>
+              </component>
+              <component id="3f941" class="javax.swing.JCheckBox" binding="lCheckBox">
+                <constraints>
+                  <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <focusable value="false"/>
+                  <selected value="true"/>
+                  <text value="l"/>
+                </properties>
+              </component>
+              <component id="167f0" class="javax.swing.JCheckBox" binding="kCheckBox">
+                <constraints>
+                  <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <focusable value="false"/>
+                  <selected value="true"/>
+                  <text value="k"/>
+                </properties>
+              </component>
+              <component id="95979" class="javax.swing.JCheckBox" binding="jCheckBox">
+                <constraints>
+                  <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <focusable value="false"/>
+                  <selected value="true"/>
+                  <text value="j"/>
+                </properties>
+              </component>
+              <component id="27557" class="javax.swing.JCheckBox" binding="iCheckBox">
+                <constraints>
+                  <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <focusable value="false"/>
+                  <selected value="true"/>
+                  <text value="i"/>
+                </properties>
+              </component>
+              <component id="9c35f" class="javax.swing.JCheckBox" binding="hCheckBox">
+                <constraints>
+                  <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <focusable value="false"/>
+                  <selected value="true"/>
+                  <text value="h"/>
+                </properties>
+              </component>
+              <component id="13465" class="javax.swing.JCheckBox" binding="gCheckBox">
+                <constraints>
+                  <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <focusable value="false"/>
+                  <selected value="true"/>
+                  <text value="g"/>
+                </properties>
+              </component>
+              <component id="410f6" class="javax.swing.JCheckBox" binding="fCheckBox">
+                <constraints>
+                  <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <focusable value="false"/>
+                  <selected value="true"/>
+                  <text value="f"/>
+                </properties>
+              </component>
+              <component id="ee313" class="javax.swing.JCheckBox" binding="eCheckBox">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <focusable value="false"/>
+                  <selected value="true"/>
+                  <text value="e"/>
+                </properties>
+              </component>
+              <component id="773fb" class="javax.swing.JCheckBox" binding="kommaCheckBox">
+                <constraints>
+                  <grid row="26" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <focusable value="false"/>
+                  <selected value="true"/>
+                  <text value=","/>
+                </properties>
+              </component>
+              <component id="beda7" class="javax.swing.JCheckBox" binding="dotCheckBox">
+                <constraints>
+                  <grid row="27" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <focusable value="false"/>
+                  <selected value="true"/>
+                  <text value="."/>
+                </properties>
+              </component>
+              <component id="f3289" class="javax.swing.JCheckBox" binding="minusCheckBox">
+                <constraints>
+                  <grid row="28" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <focusable value="false"/>
+                  <selected value="true"/>
+                  <text value="-"/>
+                </properties>
+              </component>
+              <component id="411a9" class="javax.swing.JCheckBox" binding="ausrufeCheckBox">
+                <constraints>
+                  <grid row="30" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <focusable value="false"/>
+                  <selected value="true"/>
+                  <text value="!"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </scrollpane>
+      <hspacer id="cbb8e">
+        <constraints>
+          <grid row="2" column="1" row-span="11" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="d1783" class="javax.swing.JButton" binding="selectAllButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <text value="Select all"/>
+        </properties>
+      </component>
+      <component id="b5402" class="javax.swing.JButton" binding="unselectAllButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <text value="Unselect all"/>
+        </properties>
+      </component>
+      <component id="3ffd" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font style="1"/>
+          <text value="Options"/>
+        </properties>
+      </component>
+      <vspacer id="4ed6">
+        <constraints>
+          <grid row="4" column="6" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="a51e9">
+        <constraints>
+          <grid row="5" column="6" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="ffe96">
+        <constraints>
+          <grid row="6" column="6" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="8ab5e">
+        <constraints>
+          <grid row="7" column="6" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="40b55">
+        <constraints>
+          <grid row="8" column="6" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="829af">
+        <constraints>
+          <grid row="9" column="6" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="eb7bc">
+        <constraints>
+          <grid row="10" column="6" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="58562">
+        <constraints>
+          <grid row="11" column="6" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="6e492">
+        <constraints>
+          <grid row="12" column="6" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="603a2">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <hspacer id="dfb6a">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <vspacer id="4c38f">
+        <constraints>
+          <grid row="14" column="6" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <hspacer id="254e0">
+        <constraints>
+          <grid row="13" column="8" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+    </children>
+  </grid>
+</form>
